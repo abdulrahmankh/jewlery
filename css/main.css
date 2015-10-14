@@ -2,22 +2,120 @@ body{
 	background: #ecf0f1;
 	font-size: 16px;
 	line-height: 20px;
-
+	margin: 10px;
 }
 .container{
+	margin-top: 10px;
 	padding-left:200px;
 	padding-right: 200px;
 }
 
-.card{
+.containerImage{
 	width: 100%;
-	height: 300px;
-	background-color: #3498db;
+	background:  url("../images/image_back_2.jpg") center no-repeat;
+}
+
+
+ .flipable-card{
 	
+	width: 100%;
+	height: 300px !important;
+	background-color: #ecf0f1;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-top: 20px;
 
 }
 
+.card:hover{
+	cursor: pointer;
+	border: #f39c12 solid 1px;
+}
+
+.card-info{
+	background-color: #ffffff;
+	overflow: scroll  ;
+	width: 100%;
+	height: 300px !important;
+	overflow-x: hidden;
+}
 .card-1{
-	/*Sbackground:  url("../images/photo1.jpg") center no-repeat;*/
-	background-size: 120%;
+	background:  url("../images/photo1_1.jpg") center no-repeat;
+	background-size: 135%;
+}
+.card-2{
+	background:  url("../images/photo2_1.jpg") center no-repeat;
+	background-size: 135%;
+}
+.card-3{
+
+	background:  url("../images/photo3_1.jpg") right no-repeat;
+	background-size: 135%
+}
+.card-4{
+	background:  url("../images/photo4_1.jpg") right no-repeat;
+	background-size: 135%;
+}
+
+.contact{
+	margin: 10px;
+	width: 100%;
+	height: 100%;
+	padding-top: 70px;
+
+	/*background:  url("../images/image_back_3.jpg") center no-repeat;*/
+}
+
+
+.video{
+	width: 60%;
+	margin-top: 10px;
+}
+
+.video_back{
+	margin-top: 10px;
+	background:  url("../images/image_back_4.jpg") center no-repeat;
+}
+
+.go-top:hover{
+	text-decoration: none;
+}
+
+.info-shown{
+	background: white;
+}
+
+h2, .brand{
+	color: #7f8c8d !important;
+}
+
+.footer{
+	width: 100%;
+	background-color: #2c3e50;
+	color: #ecf0f1;
+	font-size: 10px;
+	margin: 0 !important;
+	padding: 20px;
+}
+  
+.m{
+	margin: 2px;
+	margin-top: 10px;
+}
+
+
+
+.go_top{
+	font-size:20px; 
+	color: #bdc3c7;
+}
+
+.social a{
+	font-style: none;
+	color: #bdc3c7;
+}
+
+.social a:hover{
+	text-decoration: none;
+	color: #95a5a6;
 }

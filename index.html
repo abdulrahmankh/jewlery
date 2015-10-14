@@ -1,86 +1,463 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="cache-control" content="max-age=0" />
-		<meta http-equiv="cache-control" content="no-cache" />
-		<meta http-equiv="expires" content="0" />
-		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
-		<meta http-equiv="pragma" content="no-cache" />
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<title>Rock Pation</title>
-	</head>
+<head>
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>Miss Jewlery Passion</title>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand brand" href="#"><i class="fa fa-diamond"></i> Miss Jewlery Passion</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li class=""><a href="#home">Home</a></li>
+					<li><a href="#product">Products</a></li>
+					<li><a href="#video">Video</a></li>
+					<li><a href="#contact">Contact us</a></li>
+				</ul>
 
-	<body>
-		<div class="container">
-			<div class="row header-row">
-				<div class="col-lg-12">
-					<h1>Welcome to the rock pation websit</h1>
-				</div> <!-- end col-lg-12 -->
-			</div> <!-- end header-row -->
-			<div class="row card-row">
-				<div class="col-lg-6">
-					<div class="well card card-1">
-						<ul class="card-info">
-							<li>One item</li>
-							<li>Two item</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="well card card-2">
-						<div class="card-info">
-							<div class="row">
-								<div class="col-lg-2">add photo here</div>
-								<div class="col-lg-10">add discription here</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-2">add photo here</div>
-								<div class="col-lg-10">add discription here</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-2">add photo here</div>
-								<div class="col-lg-10">add discription here</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-2">add photo here</div>
-								<div class="col-lg-10">add discription here</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-2">add photo here</div>
-								<div class="col-lg-10">add discription here</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-2">add photo here</div>
-								<div class="col-lg-10">add discription here</div>
-							</div>
+
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	<center>
+	<div id="home">
+		<ul class= "bxSlider">
+		<li><img src="images/image_back_1_1.jpg" / style=" width:100%; display: block;"></li>
+		<li><img src="images/image_back_1_2.jpg" / style=" width:100%; height:525px; display: block;"></li>
+		<li><img src="images/image_back_1_3.jpg" / style=" width:100%; height:525px; display: block;"></li>
+		<li><img src="images/image_back_1_4.jpg" / style=" width:100%; height:525px; display: block;"></li>
+		</ul>
+	</div>
+	</center>
+	<div class="container containerImage">
+		<div class="row header-row" >
+						<!--<div class="col-lg-12">
+									<h1>Welcome to the rock pation websit</h1>
+								</div> --><!-- end col-lg-12 -->
+							</div> <!-- end header-row -->
+
+							
+
+							<div class="row card-row" id="product">
+								<h2>Our products</h2>
+								<div class="col-lg-6">
+									<div class="flipable-card">
+										<div class="card card-1 front"></div>
+										<div class="card-info back">
+											<div class="row m ">
+												<div class="col-lg-6">
+													<img src="images/r1.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg">
+															Golden Love
+														</a>
+													</center>
+												</div>
+												<div class="col-lg-6">
+													<img src="images/r2.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Pure" data-description="hello" data-image="images/r2.jpg">
+															Golden Pure
+														</a>
+													</center>
+												</div>
+											</div>
+											<div class="row m">
+												<div class="col-lg-6">
+													<img src="images/r3.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Fun"  data-description="Golden fun said Hi to you too" data-image="images/r3.jpg">
+															Golden fun
+														</a>
+													</center>
+												</div>
+												<div class="col-lg-6">
+													<img src="images/r4.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+															Golden Love
+														</a>
+													</center>
+												</div>
+											</div>
+											<div class="row m">
+												<div class="col-lg-6">
+													<img src="images/r5.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+															Golden Love
+														</a>
+													</center>
+												</div>
+												<div class="col-lg-6">
+													<img src="images/r6.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+															Golden Love
+														</a>
+													</center>
+												</div>
+											</div>
+											<div class="row m">
+												<div class="col-lg-6">
+													<img src="images/r7.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+															Golden Love
+														</a>
+													</center>
+												</div>
+												<div class="col-lg-6">
+													<img src="images/r8.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+															Golden Love
+														</a>
+													</center>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="flipable-card">
+										<div class="card card-2 front"></div>
+										<div class="card-info back">
+											<div class="row m ">
+												<div class="col-lg-6">
+													<img src="images/n1.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+															Golden Love
+														</a>
+													</center>
+												</div>
+												<div class="col-lg-6">
+													<img src="images/n2.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+															Golden Love
+														</a>
+													</center>
+												</div>
+											</div>
+											<div class="row m">
+												<div class="col-lg-6">
+													<img src="images/n3.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+															Golden Love
+														</a>
+													</center>
+												</div>
+												<div class="col-lg-6">
+													<img src="images/n4.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+															Golden Love
+														</a>
+													</center>
+												</div>
+											</div>
+											<div class="row m">
+												<div class="col-lg-6">
+													<img src="images/n5.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+															Golden Love
+														</a>
+													</center>
+												</div>
+												<div class="col-lg-6">
+													<img src="images/n6.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+															Golden Love
+														</a>
+													</center>
+												</div>
+											</div>
+											<div class="row m">
+												<div class="col-lg-6">
+													<img src="images/n7.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="aaaaaa" data-description="some text can go here" data-image="images/n7.jpg" data-content="Golden Love">
+															aaaaa
+														</a>
+													</center>
+												</div>
+												<div class="col-lg-6">
+													<img src="images/n8.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+															Golden Love
+														</a>
+													</center>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="flipable-card">
+										<div class="card card-3 front"></div>
+										<div class="card-info back">
+											<div class="row m">
+												<div class="col-lg-6">
+													<img src="images/e1.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+															Golden Love
+														</a>
+													</center>
+												</div>
+												<div class="col-lg-6">
+													<img src="images/e2.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+															Golden Love
+														</a>
+													</center>
+												</div>
+												<div class="row">
+													<div class="col-lg-6">
+														<img src="images/e3.jpg"  style=" width:100%; display: block;"><br>
+														<center>
+															<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+																Golden Love
+															</a>
+														</center>
+													</div>
+													<div class="col-lg-6">
+														<img src="images/e4.jpg"  style=" width:100%; display: block;"><br>
+														<center>
+															<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+																Golden Love
+															</a>
+														</center>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-lg-6">
+														<img src="images/e5.jpg"  style=" width:100%; display: block;"><br>
+														<center>
+															<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+																Golden Love
+															</a>
+														</center>
+													</div>
+													<div class="col-lg-6">
+														<img src="images/e6.jpg"  style=" width:100%; display: block;"><br>
+														<center>
+															<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+																Golden Love
+															</a>
+														</center>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-lg-6">
+														<img src="images/e7.jpg"  style=" width:100%; display: block;"><br>
+														<center>
+															<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+																Golden Love
+															</a>
+														</center>
+													</div>
+													<div class="col-lg-6">
+														<img src="images/e8.jpg"  style=" width:100%; display: block;"><br>
+														<center>
+															<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+																Golden Love
+															</a>
+														</center>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="flipable-card">
+										<div class="card card-4 front"></div>
+										<div class="card-info back">
+											<div class="row m">
+												<div class="col-lg-6">
+													<img src="images/b1.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+															Golden Love
+														</a>
+													</center>
+												</div>
+												<div class="col-lg-6">
+													<img src="images/b2.jpg"  style=" width:100%; display: block;"><br>
+													<center>
+														<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+															Golden Love
+														</a>
+													</center>
+												</div>
+												<div class="row">
+													<div class="col-lg-6">
+														<img src="images/b3.jpg"  style=" width:100%; display: block;"><br>
+														<center>
+															<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+																Golden Love
+															</a>
+														</center>
+													</div>
+													<div class="col-lg-6">
+														<img src="images/b4.jpg"  style=" width:100%; display: block;"><br>
+														<center>
+															<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+																Golden Love
+															</a>
+														</center>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-lg-6">
+														<img src="images/b5.jpg"  style=" width:100%; display: block;"><br>
+														<center>
+															<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+																Golden Love
+															</a>
+														</center>
+													</div>
+													<div class="col-lg-6">
+														<img src="images/b6.jpg"  style=" width:100%; display: block;"><br>
+														<center>
+															<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+																Golden Love
+															</a>
+														</center>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-lg-6">
+														<img src="images/b7.jpg"  style=" width:100%; display: block;"><br>
+														<center>
+															<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+																Golden Love
+															</a>
+														</center>
+													</div>
+													<div class="col-lg-6">
+														<img src="images/b8.jpg"  style=" width:100%; display: block;"><br>
+														<center>
+															<a  class="btn btn-link products" data-toggle="modal" data-target="#goldenLove" data-label="Golden Love" data-description="some text can go here" data-image="images/r1.jpg" data-content="Golden Love">
+																Golden Love
+															</a>
+														</center>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div> <!-- end card-row -->
 						</div>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="well card card-3">
-						<ul class="card-info">
-							<li>One item</li>
-							<li>Two item</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="well card card-4">
-						<ul class="card-info">
-							<li>One item</li>
-							<li>Two item</li>
-						</ul>
-					</div>
-				</div>
-			</div> <!-- end card-row -->
-		</div>
+						<center>
+							<div class= "video_back" id="video" >
+								<video class="video" controls>
+									<source src="video.mp4" type="video/mp4">
+									</video>
+								</div>
+							</center>
+							
+							<div class="row contact" id="contact">
+								<div class="col-lg-6 col-lg-offset-3">
+									<h2>Contact us</h2>
+									<hr>
+									<form>
+										<div class="form-group">
+											<label for="exampleInputEmail1">Email address</label>
+											<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+										</div>
+										<div class="form-group">
+											<label for="exampleInputName1">Name</label>
+											<input type="text" class="form-control" id="exampleInputName1" placeholder="Your name">
+										</div>
+										<div class="form-group">
+											<label for="exampleInputName1">Message</label>
+											<textarea class="form-control" rows="3" placeholder="What is in your mind!"></textarea>
+										</div>
+										
+										<button type="submit" class="btn btn-default">Send</button>
+									</form>
+								</div>
+								
+							</div>	 <!--end of contact row -->
 
-		
+								<!-- social media buttons -->
+							<center>
+								<div class= "social">
+									<a href="https://www.facebook.com/AbdulRahmanAlkhatib91" class="fa fa-2x fa-facebook-square"></a>
+									<a href="https://www.facebook.com/AbdulRahmanAlkhatib91" class="fa fa-2x fa-twitter-square"></a>
+									<a href="https://www.facebook.com/AbdulRahmanAlkhatib91" class="fa fa-2x fa-instagram"></a>
+								</div>
+							</center>
+							<a href="#top" class="go-top go_top"><span class="glyphicon glyphicon-chevron-up" title="Go to top"></span ></a>
+							<center>
+														
+							<div class="row footer">
+								<center>
+									<span class="glyphicon glyphicon-copyright-mark"></span> Copy right reserved | Miss Jewlery Passion Inc
+								</center>
+							</center>
 
-	</body>
+							</div>
+							<!-- Model -->
+							<!-- Button trigger modal -->
+							<!-- Modal -->
+							<div class="modal fade" id="goldenLove" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											<h4 class="modal-title" id="modal-label">Golden Love</h4>
+										</div>
+										<div class="modal-body">
+											<center>
+												<img id="modal-image" src="images/r1.jpg" id="product_image"  style=" width:70%; display: block;">
+												<p id="modal-text">In 18k white gold with round brilliant diamonds. Carat total weight .20. </p> </center>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+											</div>
+										</div>
+									</div>
+								</div>
 
 
-	<script type="text/javascript"  src="js/jquery-2.1.4.min.js"></script>
-	<script type="text/javascript"  src="js/custom.js"></script>
-</html>
+								
+
+
+							</body>
+							<script type="text/javascript"  src="js/jquery-2.1.4.min.js"></script>
+							<script type="text/javascript"  src="js/bootstrap.min.js"></script>
+							<script type="text/javascript"  src="js/jquery.bxslider.js"></script>
+							<script type="text/javascript"  src="js/flip.js"></script>
+							<script type="text/javascript"  src="js/custom.js"></script>
+
+							</html>
