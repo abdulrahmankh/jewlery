@@ -16,7 +16,7 @@ body{
 }
 
 
- .flipable-card{
+.flipable-card{
 	
 	width: 100%;
 	height: 300px !important;
@@ -62,10 +62,7 @@ body{
 	width: 100%;
 	height: 100%;
 	padding-top: 70px;
-
-	/*background:  url("../images/image_back_3.jpg") center no-repeat;*/
 }
-
 
 .video{
 	width: 60%;
@@ -97,16 +94,15 @@ h2, .brand{
 	margin: 0 !important;
 	padding: 20px;
 }
-  
+
+/* m class is to add margin to some selected element */
 .m{
 	margin: 2px;
 	margin-top: 10px;
 }
 
-
-
 .go_top{
-	font-size:20px; 
+	font-size:30px; 
 	color: #bdc3c7;
 }
 
